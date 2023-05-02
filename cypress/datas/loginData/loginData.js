@@ -3,8 +3,6 @@ export const objLoginWrong = {
     password: 'password'
 }
 
-
-
 export const objPasswordWrong = {
     email: 'zorivchak@gmail.com',
     password: 'password'
@@ -13,4 +11,9 @@ export const objPasswordWrong = {
 export const objEmailIsEmpty = {
     email: '',
     password: 'password'
+}
+
+export const objEmailIsCorrect = {
+    email: 'zorivchak@gmail.com',
+    password: 'password123'
 }
