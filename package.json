@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cy:run:unit": "cypress run -- \"cypress/e2e/unitNumb.cy.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:run:spec": "cypress run -- --spec \"cypress/e2e/spec.cy.js\""
+    "cy:run:loginBC": "cypress run -- \"cypress/e2e/loginBC.cy.js\""
   },
   "keywords": [],
   "author": "",
